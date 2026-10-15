@@ -1,0 +1,352 @@
+[
+  {
+    "titulo": "Stranger Things",
+    "plataforma": "Netflix",
+    "genero": "Ciencia ficción",
+    "anio_estreno": 2016,
+    "temporadas": 5,
+    "nota": 8.7,
+    "finalizada": true,
+    "pais": "Estados Unidos"
+  },
+  {
+    "titulo": "La casa de papel",
+    "plataforma": "Netflix",
+    "genero": "Thriller",
+    "anio_estreno": 2017,
+    "temporadas": 5,
+    "nota": 8.2,
+    "finalizada": true,
+    "pais": "España"
+  },
+  {
+    "titulo": "Élite",
+    "plataforma": "Netflix",
+    "genero": "Drama",
+    "anio_estreno": 2018,
+    "temporadas": 8,
+    "nota": 7.2,
+    "finalizada": true,
+    "pais": "España"
+  },
+  {
+    "titulo": "The Crown",
+    "plataforma": "Netflix",
+    "genero": "Drama",
+    "anio_estreno": 2016,
+    "temporadas": 6,
+    "nota": 8.6,
+    "finalizada": true,
+    "pais": "Reino Unido"
+  },
+  {
+    "titulo": "Dark",
+    "plataforma": "Netflix",
+    "genero": "Ciencia ficción",
+    "anio_estreno": 2017,
+    "temporadas": 3,
+    "nota": 8.7,
+    "finalizada": true,
+    "pais": "Alemania"
+  },
+  {
+    "titulo": "Miércoles",
+    "plataforma": "Netflix",
+    "genero": "Comedia",
+    "anio_estreno": 2022,
+    "temporadas": 2,
+    "nota": 8.0,
+    "finalizada": false,
+    "pais": "Estados Unidos"
+  },
+  {
+    "titulo": "El juego del calamar",
+    "plataforma": "Netflix",
+    "genero": "Thriller",
+    "anio_estreno": 2021,
+    "temporadas": 3,
+    "nota": 8.0,
+    "finalizada": true,
+    "pais": "Corea del Sur"
+  },
+  {
+    "titulo": "Los Bridgerton",
+    "plataforma": "Netflix",
+    "genero": "Romance",
+    "anio_estreno": 2020,
+    "temporadas": 4,
+    "nota": 7.3,
+    "finalizada": false,
+    "pais": "Estados Unidos"
+  },
+  {
+    "titulo": "Narcos",
+    "plataforma": "Netflix",
+    "genero": "Drama",
+    "anio_estreno": 2015,
+    "temporadas": 3,
+    "nota": 8.8,
+    "finalizada": true,
+    "pais": "Estados Unidos"
+  },
+  {
+    "titulo": "Black Mirror",
+    "plataforma": "Netflix",
+    "genero": "Ciencia ficción",
+    "anio_estreno": 2011,
+    "temporadas": 7,
+    "nota": 8.7,
+    "finalizada": false,
+    "pais": "Reino Unido"
+  },
+  {
+    "titulo": "Arcane",
+    "plataforma": "Netflix",
+    "genero": "Animación",
+    "anio_estreno": 2021,
+    "temporadas": 2,
+    "nota": 9.0,
+    "finalizada": true,
+    "pais": "Francia"
+  },
+  {
+    "titulo": "Las chicas del cable",
+    "plataforma": "Netflix",
+    "genero": "Drama",
+    "anio_estreno": 2017,
+    "temporadas": 5,
+    "nota": 7.6,
+    "finalizada": true,
+    "pais": "España"
+  },
+  {
+    "titulo": "Juego de Tronos",
+    "plataforma": "Max",
+    "genero": "Fantasía",
+    "anio_estreno": 2011,
+    "temporadas": 8,
+    "nota": 9.2,
+    "finalizada": true,
+    "pais": "Estados Unidos"
+  },
+  {
+    "titulo": "Euphoria",
+    "plataforma": "Max",
+    "genero": "Drama",
+    "anio_estreno": 2019,
+    "temporadas": 3,
+    "nota": 8.3,
+    "finalizada": false,
+    "pais": "Estados Unidos"
+  },
+  {
+    "titulo": "The Last of Us",
+    "plataforma": "Max",
+    "genero": "Drama",
+    "anio_estreno": 2023,
+    "temporadas": 2,
+    "nota": 8.6,
+    "finalizada": false,
+    "pais": "Estados Unidos"
+  },
+  {
+    "titulo": "Succession",
+    "plataforma": "Max",
+    "genero": "Drama",
+    "anio_estreno": 2018,
+    "temporadas": 4,
+    "nota": 8.9,
+    "finalizada": true,
+    "pais": "Estados Unidos"
+  },
+  {
+    "titulo": "Chernobyl",
+    "plataforma": "Max",
+    "genero": "Drama",
+    "anio_estreno": 2019,
+    "temporadas": 1,
+    "nota": 9.3,
+    "finalizada": true,
+    "pais": "Reino Unido"
+  },
+  {
+    "titulo": "La casa del dragón",
+    "plataforma": "Max",
+    "genero": "Fantasía",
+    "anio_estreno": 2022,
+    "temporadas": 2,
+    "nota": 8.3,
+    "finalizada": false,
+    "pais": "Estados Unidos"
+  },
+  {
+    "titulo": "The White Lotus",
+    "plataforma": "Max",
+    "genero": "Comedia",
+    "anio_estreno": 2021,
+    "temporadas": 3,
+    "nota": 8.0,
+    "finalizada": false,
+    "pais": "Estados Unidos"
+  },
+  {
+    "titulo": "The Boys",
+    "plataforma": "Prime Video",
+    "genero": "Acción",
+    "anio_estreno": 2019,
+    "temporadas": 5,
+    "nota": 8.7,
+    "finalizada": true,
+    "pais": "Estados Unidos"
+  },
+  {
+    "titulo": "Los anillos de poder",
+    "plataforma": "Prime Video",
+    "genero": "Fantasía",
+    "anio_estreno": 2022,
+    "temporadas": 2,
+    "nota": 6.9,
+    "finalizada": false,
+    "pais": "Estados Unidos"
+  },
+  {
+    "titulo": "Fallout",
+    "plataforma": "Prime Video",
+    "genero": "Ciencia ficción",
+    "anio_estreno": 2024,
+    "temporadas": 2,
+    "nota": 8.3,
+    "finalizada": false,
+    "pais": "Estados Unidos"
+  },
+  {
+    "titulo": "Invencible",
+    "plataforma": "Prime Video",
+    "genero": "Animación",
+    "anio_estreno": 2021,
+    "temporadas": 3,
+    "nota": 8.7,
+    "finalizada": false,
+    "pais": "Estados Unidos"
+  },
+  {
+    "titulo": "Reacher",
+    "plataforma": "Prime Video",
+    "genero": "Acción",
+    "anio_estreno": 2022,
+    "temporadas": 3,
+    "nota": 8.0,
+    "finalizada": false,
+    "pais": "Estados Unidos"
+  },
+  {
+    "titulo": "The Mandalorian",
+    "plataforma": "Disney+",
+    "genero": "Ciencia ficción",
+    "anio_estreno": 2019,
+    "temporadas": 3,
+    "nota": 8.6,
+    "finalizada": false,
+    "pais": "Estados Unidos"
+  },
+  {
+    "titulo": "Loki",
+    "plataforma": "Disney+",
+    "genero": "Fantasía",
+    "anio_estreno": 2021,
+    "temporadas": 2,
+    "nota": 8.2,
+    "finalizada": true,
+    "pais": "Estados Unidos"
+  },
+  {
+    "titulo": "Andor",
+    "plataforma": "Disney+",
+    "genero": "Ciencia ficción",
+    "anio_estreno": 2022,
+    "temporadas": 2,
+    "nota": 8.6,
+    "finalizada": true,
+    "pais": "Estados Unidos"
+  },
+  {
+    "titulo": "The Bear",
+    "plataforma": "Disney+",
+    "genero": "Comedia",
+    "anio_estreno": 2022,
+    "temporadas": 4,
+    "nota": 8.5,
+    "finalizada": false,
+    "pais": "Estados Unidos"
+  },
+  {
+    "titulo": "Ted Lasso",
+    "plataforma": "Apple TV+",
+    "genero": "Comedia",
+    "anio_estreno": 2020,
+    "temporadas": 3,
+    "nota": 8.8,
+    "finalizada": false,
+    "pais": "Estados Unidos"
+  },
+  {
+    "titulo": "Separación",
+    "plataforma": "Apple TV+",
+    "genero": "Thriller",
+    "anio_estreno": 2022,
+    "temporadas": 2,
+    "nota": 8.7,
+    "finalizada": false,
+    "pais": "Estados Unidos"
+  },
+  {
+    "titulo": "The Morning Show",
+    "plataforma": "Apple TV+",
+    "genero": "Drama",
+    "anio_estreno": 2019,
+    "temporadas": 4,
+    "nota": 8.2,
+    "finalizada": false,
+    "pais": "Estados Unidos"
+  },
+  {
+    "titulo": "Antidisturbios",
+    "plataforma": "Movistar Plus+",
+    "genero": "Thriller",
+    "anio_estreno": 2020,
+    "temporadas": 1,
+    "nota": 8.0,
+    "finalizada": true,
+    "pais": "España"
+  },
+  {
+    "titulo": "La peste",
+    "plataforma": "Movistar Plus+",
+    "genero": "Drama",
+    "anio_estreno": 2018,
+    "temporadas": 2,
+    "nota": 7.6,
+    "finalizada": true,
+    "pais": "España"
+  },
+  {
+    "titulo": "Arde Madrid",
+    "plataforma": "Movistar Plus+",
+    "genero": "Comedia",
+    "anio_estreno": 2018,
+    "temporadas": 1,
+    "nota": 7.4,
+    "finalizada": true,
+    "pais": "España"
+  },
+  {
+    "titulo": "Rapa",
+    "plataforma": "Movistar Plus+",
+    "genero": "Thriller",
+    "anio_estreno": 2022,
+    "temporadas": 3,
+    "nota": 7.3,
+    "finalizada": true,
+    "pais": "España"
+  }
+]
