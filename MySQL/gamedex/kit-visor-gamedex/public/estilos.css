@@ -1,0 +1,121 @@
+:root {
+  --fondo: #0f172a;
+  --panel: #1e293b;
+  --borde: #334155;
+  --texto: #e2e8f0;
+  --suave: #94a3b8;
+  --acento: #38bdf8;
+  --ok: #22c55e;
+  --mal: #ef4444;
+  --aviso: #f59e0b;
+}
+
+* { box-sizing: border-box; }
+[hidden] { display: none !important; }
+
+body {
+  margin: 0;
+  background: var(--fondo);
+  color: var(--texto);
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  line-height: 1.45;
+}
+
+code {
+  font-family: ui-monospace, "Cascadia Code", Consolas, monospace;
+  background: rgba(148, 163, 184, .15);
+  padding: .1em .35em;
+  border-radius: 4px;
+}
+
+/* ── Cabecera ── */
+.cabecera {
+  background: linear-gradient(135deg, #1e3a8a 0%, #0f172a 70%);
+  border-bottom: 1px solid var(--borde);
+}
+.cabecera__dentro { max-width: 1200px; margin: 0 auto; padding: 32px 20px 24px; }
+.cabecera h1 { margin: 0; font-size: clamp(28px, 5vw, 44px); letter-spacing: -.02em; }
+.cabecera__sub { margin: 4px 0 0; color: var(--suave); }
+.aviso-nombre {
+  margin: 14px 0 0; padding: 8px 12px; display: inline-block;
+  background: rgba(245, 158, 11, .15); color: #fcd34d; border-radius: 8px;
+}
+
+/* ── Pestañas ── */
+.pestanas {
+  position: sticky; top: 0; z-index: 2;
+  display: flex; gap: 8px; overflow-x: auto;
+  max-width: 1200px; margin: 0 auto; padding: 14px 20px;
+  background: var(--fondo);
+}
+.pestana {
+  flex: none; display: flex; align-items: center; gap: 8px;
+  padding: 8px 14px; border-radius: 999px; cursor: pointer;
+  background: var(--panel); color: var(--texto);
+  border: 1px solid var(--borde); font: inherit; font-size: 15px;
+}
+.pestana:hover { border-color: var(--suave); }
+.pestana.activa { background: var(--acento); border-color: var(--acento); color: #0f172a; font-weight: 600; }
+.pestana__punto { width: 9px; height: 9px; border-radius: 50%; background: var(--borde); }
+.pestana__punto.ok { background: var(--ok); }
+.pestana__punto.mal { background: var(--mal); }
+.pestana.activa .pestana__punto { outline: 2px solid #0f172a; }
+.pestana__opcional { font-size: 12px; opacity: .75; }
+
+/* ── Zona principal ── */
+.contenido { max-width: 1200px; margin: 0 auto; padding: 4px 20px 48px; }
+
+.resumen {
+  display: flex; flex-wrap: wrap; align-items: baseline; gap: 10px;
+  margin-bottom: 18px; padding: 10px 14px;
+  background: var(--panel); border: 1px solid var(--borde); border-radius: 10px;
+}
+.resumen__etiqueta { color: var(--suave); font-size: 14px; }
+.resumen__numeros { font-family: ui-monospace, Consolas, monospace; font-size: 18px; font-weight: 600; letter-spacing: .03em; }
+
+.estado { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 6px 20px; align-items: baseline; }
+.estado__desc { margin: 0; color: var(--suave); }
+.estado__cuenta { margin: 0; font-weight: 600; }
+.estado__cuenta.ok { color: var(--ok); }
+.estado__cuenta.mal { color: var(--mal); }
+
+.mensaje {
+  margin: 18px 0; padding: 16px 18px; border-radius: 10px;
+  border: 1px solid var(--borde); background: var(--panel);
+}
+.mensaje.error { border-color: rgba(239, 68, 68, .5); background: rgba(239, 68, 68, .1); }
+.mensaje h2 { margin: 0 0 6px; font-size: 17px; }
+.mensaje p { margin: 0; }
+
+/* ── Tarjetas ── */
+.rejilla {
+  display: grid; gap: 18px; margin-top: 18px;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+}
+.tarjeta {
+  display: flex; flex-direction: column;
+  background: var(--panel); border: 1px solid var(--borde); border-radius: 12px;
+  overflow: hidden; transition: transform .15s, border-color .15s;
+}
+.tarjeta:hover { transform: translateY(-3px); border-color: var(--suave); }
+.tarjeta__imagen { width: 100%; aspect-ratio: 460 / 215; object-fit: cover; display: block; background: #0b1220; }
+.tarjeta__cuerpo { padding: 12px 14px 14px; display: flex; flex-direction: column; gap: 6px; flex: 1; }
+.tarjeta__titulo { margin: 0; font-size: 17px; line-height: 1.25; }
+.tarjeta__meta { margin: 0; color: var(--suave); font-size: 14px; }
+.tarjeta__pie { margin-top: auto; padding-top: 6px; display: flex; justify-content: space-between; align-items: center; }
+.precio { font-weight: 700; font-size: 17px; }
+.nota {
+  min-width: 38px; padding: 3px 7px; border-radius: 6px; text-align: center;
+  font-weight: 700; font-size: 15px; color: #0f172a; background: var(--suave);
+}
+.nota.alta { background: #66cc33; }
+.nota.media { background: #ffcc33; }
+.nota.baja { background: #ff6666; }
+.etiquetas { display: flex; flex-wrap: wrap; gap: 5px; }
+.etiqueta { font-size: 12px; padding: 2px 8px; border-radius: 999px; background: rgba(56, 189, 248, .15); color: var(--acento); }
+
+.tarjeta--simple .tarjeta__cuerpo { padding: 16px; }
+.tarjeta__numero { font-size: 32px; font-weight: 700; color: var(--acento); line-height: 1; }
+.tarjeta__datos { margin: 0; display: grid; grid-template-columns: auto 1fr; gap: 2px 10px; font-size: 14px; }
+.tarjeta__datos dt { color: var(--suave); }
+.tarjeta__datos dd { margin: 0; overflow-wrap: anywhere; }

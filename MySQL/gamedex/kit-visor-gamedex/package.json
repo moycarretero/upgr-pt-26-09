@@ -1,0 +1,14 @@
+{
+  "name": "kit-visor-gamedex",
+  "version": "1.0.0",
+  "description": "Visor de GameDex: muestra como tarjetas el resultado de tus consultas SQL",
+  "main": "server.js",
+  "private": true,
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "mysql2": "^3.11.0"
+  }
+}
