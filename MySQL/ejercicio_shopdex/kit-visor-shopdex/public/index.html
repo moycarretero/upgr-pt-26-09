@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ShopDex</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <header class="cabecera">
+    <div class="cabecera__dentro">
+      <h1 id="titulo">ShopDex</h1>
+      <p class="cabecera__sub">Tu tienda online, directa desde tu base de datos MySQL</p>
+      <p id="aviso-nombre" class="aviso-nombre" hidden>Pon tu nombre en <code>NOMBRE</code> del fichero <code>.env</code> y reinicia el servidor.</p>
+    </div>
+  </header>
+
+  <nav class="pestanas" id="pestanas" aria-label="Pestañas"></nav>
+
+  <main class="contenido">
+    <section class="resumen" id="resumen" hidden>
+      <span class="resumen__etiqueta">Tu progreso</span>
+      <span class="resumen__numeros" id="resumen-numeros"></span>
+    </section>
+
+    <section class="estado" id="estado">
+      <p class="estado__desc" id="descripcion"></p>
+      <ul class="comprobaciones" id="comprobaciones"></ul>
+    </section>
+
+    <div id="mensaje"></div>
+    <div class="rejilla" id="rejilla"></div>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>

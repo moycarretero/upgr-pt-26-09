@@ -1,0 +1,141 @@
+:root {
+  --fondo: #f6f5f2;
+  --panel: #ffffff;
+  --borde: #e4e1da;
+  --texto: #1f2328;
+  --suave: #6b6f76;
+  --acento: #e8590c;
+  --acento-suave: #fff1e8;
+  --ok: #16a34a;
+  --mal: #dc2626;
+  --aviso: #d97706;
+}
+
+* { box-sizing: border-box; }
+[hidden] { display: none !important; }
+
+body {
+  margin: 0;
+  background: var(--fondo);
+  color: var(--texto);
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  line-height: 1.45;
+}
+
+code {
+  font-family: ui-monospace, "Cascadia Code", Consolas, monospace;
+  background: rgba(107, 111, 118, .12);
+  padding: .1em .35em;
+  border-radius: 4px;
+}
+
+/* ── Cabecera ── */
+.cabecera { background: #1f2328; color: #fff; }
+.cabecera__dentro { max-width: 1200px; margin: 0 auto; padding: 28px 20px 22px; }
+.cabecera h1 { margin: 0; font-size: clamp(28px, 5vw, 42px); letter-spacing: -.02em; }
+.cabecera h1::before { content: "🛒 "; }
+.cabecera__sub { margin: 4px 0 0; color: #b6bac1; }
+.aviso-nombre {
+  margin: 14px 0 0; padding: 8px 12px; display: inline-block;
+  background: rgba(217, 119, 6, .2); color: #fcd34d; border-radius: 8px;
+}
+.aviso-nombre code { background: rgba(255, 255, 255, .12); }
+
+/* ── Pestañas ── */
+.pestanas {
+  position: sticky; top: 0; z-index: 2;
+  display: flex; gap: 8px; overflow-x: auto;
+  padding: 12px max(20px, calc((100% - 1160px) / 2));
+  background: var(--fondo); border-bottom: 1px solid var(--borde);
+}
+.pestana {
+  flex: none; display: flex; align-items: center; gap: 8px;
+  padding: 7px 13px; border-radius: 999px; cursor: pointer;
+  background: var(--panel); color: var(--texto);
+  border: 1px solid var(--borde); font: inherit; font-size: 14px;
+}
+.pestana:hover { border-color: var(--suave); }
+.pestana.activa { background: var(--texto); border-color: var(--texto); color: #fff; font-weight: 600; }
+.pestana__num { font-size: 12px; color: var(--suave); }
+.pestana.activa .pestana__num { color: #b6bac1; }
+.pestana__punto { width: 9px; height: 9px; border-radius: 50%; background: var(--borde); }
+.pestana__punto.ok { background: var(--ok); }
+.pestana__punto.mal { background: var(--mal); }
+.pestana__opcional { font-size: 12px; opacity: .7; }
+
+/* ── Zona principal ── */
+.contenido { max-width: 1200px; margin: 0 auto; padding: 18px 20px 48px; }
+
+.resumen {
+  display: flex; flex-wrap: wrap; align-items: baseline; gap: 10px;
+  margin-bottom: 16px; padding: 10px 14px;
+  background: var(--panel); border: 1px solid var(--borde); border-radius: 10px;
+}
+.resumen__etiqueta { color: var(--suave); font-size: 14px; }
+.resumen__numeros { font-weight: 600; }
+
+.estado {
+  padding: 14px 16px; background: var(--panel);
+  border: 1px solid var(--borde); border-radius: 10px;
+}
+.estado__desc { margin: 0; font-size: 16px; }
+.comprobaciones { list-style: none; margin: 10px 0 0; padding: 0; display: flex; flex-wrap: wrap; gap: 6px 18px; font-size: 14px; }
+.comprobaciones:empty { display: none; }
+.comprobaciones li::before { margin-right: 5px; font-weight: 700; }
+.comprobaciones li.ok { color: var(--ok); }
+.comprobaciones li.ok::before { content: "✓"; }
+.comprobaciones li.mal { color: var(--mal); }
+.comprobaciones li.mal::before { content: "✗"; }
+
+.mensaje {
+  margin: 18px 0; padding: 16px 18px; border-radius: 10px;
+  border: 1px solid var(--borde); background: var(--panel);
+}
+.mensaje.error { border-color: rgba(220, 38, 38, .4); background: #fef2f2; }
+.mensaje h2 { margin: 0 0 6px; font-size: 17px; }
+.mensaje p { margin: 0; }
+
+/* ── Tarjetas ── */
+.rejilla {
+  display: grid; gap: 16px; margin-top: 18px;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+}
+.tarjeta {
+  display: flex; flex-direction: column;
+  background: var(--panel); border: 1px solid var(--borde); border-radius: 12px;
+  overflow: hidden; transition: transform .15s, box-shadow .15s;
+}
+.tarjeta:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0, 0, 0, .07); }
+.tarjeta__foto {
+  display: grid; place-items: center; height: 120px; font-size: 54px;
+  background: hsl(var(--tono) 70% 93%);
+}
+.tarjeta__cuerpo { padding: 12px 14px 14px; display: flex; flex-direction: column; gap: 6px; flex: 1; }
+.tarjeta__titulo { margin: 0; font-size: 16px; line-height: 1.25; }
+.tarjeta__meta { margin: 0; color: var(--suave); font-size: 14px; }
+.tarjeta__pie { margin-top: auto; padding-top: 6px; display: flex; justify-content: space-between; align-items: center; gap: 8px; }
+.precio { font-weight: 700; font-size: 18px; }
+
+.stock { font-size: 12px; font-weight: 600; padding: 2px 8px; border-radius: 999px; background: #dcfce7; color: #166534; }
+.stock.pocas { background: #fef3c7; color: #92400e; }
+.stock.agotado { background: #fee2e2; color: #991b1b; }
+
+.estrellas { color: #f59e0b; letter-spacing: 1px; font-size: 15px; }
+.estrellas small { color: var(--suave); letter-spacing: 0; margin-left: 4px; }
+
+.estado-pedido { font-size: 12px; font-weight: 600; padding: 2px 9px; border-radius: 999px; text-transform: capitalize; }
+.estado-pedido.pendiente { background: #fef3c7; color: #92400e; }
+.estado-pedido.enviado { background: #dbeafe; color: #1e40af; }
+.estado-pedido.entregado { background: #dcfce7; color: #166534; }
+.estado-pedido.cancelado { background: #fee2e2; color: #991b1b; }
+
+.avatar {
+  width: 44px; height: 44px; border-radius: 50%; display: grid; place-items: center;
+  font-weight: 700; color: #fff; background: hsl(var(--tono) 55% 50%);
+}
+
+.tarjeta--simple .tarjeta__cuerpo { padding: 16px; }
+.tarjeta__numero { font-size: 30px; font-weight: 700; color: var(--acento); line-height: 1.1; }
+.tarjeta__datos { margin: 4px 0 0; display: grid; grid-template-columns: auto 1fr; gap: 2px 10px; font-size: 13px; }
+.tarjeta__datos dt { color: var(--suave); }
+.tarjeta__datos dd { margin: 0; overflow-wrap: anywhere; }
