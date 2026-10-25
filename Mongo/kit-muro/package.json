@@ -1,0 +1,14 @@
+{
+  "name": "kit-muro",
+  "version": "1.0.0",
+  "description": "El muro de la clase: una web de post-its que guarda los mensajes en MongoDB Atlas",
+  "main": "server.js",
+  "private": true,
+  "scripts": {
+    "start": "node --watch server.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "mongodb": "^6.10.0"
+  }
+}

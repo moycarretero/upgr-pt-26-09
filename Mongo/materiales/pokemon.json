@@ -1,0 +1,737 @@
+[
+  {
+    "pokedex": 1,
+    "nombre": "Bulbasaur",
+    "tipo": "Planta",
+    "generacion": 1,
+    "altura_m": 0.7,
+    "peso_kg": 6.9,
+    "stats": {
+      "ataque": 49,
+      "defensa": 49,
+      "velocidad": 45
+    },
+    "legendario": false,
+    "imagen_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png"
+  },
+  {
+    "pokedex": 2,
+    "nombre": "Ivysaur",
+    "tipo": "Planta",
+    "generacion": 1,
+    "altura_m": 1.0,
+    "peso_kg": 13.0,
+    "stats": {
+      "ataque": 62,
+      "defensa": 63,
+      "velocidad": 60
+    },
+    "legendario": false,
+    "imagen_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/2.png"
+  },
+  {
+    "pokedex": 3,
+    "nombre": "Venusaur",
+    "tipo": "Planta",
+    "generacion": 1,
+    "altura_m": 2.0,
+    "peso_kg": 100.0,
+    "stats": {
+      "ataque": 82,
+      "defensa": 83,
+      "velocidad": 80
+    },
+    "legendario": false,
+    "imagen_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/3.png"
+  },
+  {
+    "pokedex": 4,
+    "nombre": "Charmander",
+    "tipo": "Fuego",
+    "generacion": 1,
+    "altura_m": 0.6,
+    "peso_kg": 8.5,
+    "stats": {
+      "ataque": 52,
+      "defensa": 43,
+      "velocidad": 65
+    },
+    "legendario": false,
+    "imagen_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/4.png"
+  },
+  {
+    "pokedex": 5,
+    "nombre": "Charmeleon",
+    "tipo": "Fuego",
+    "generacion": 1,
+    "altura_m": 1.1,
+    "peso_kg": 19.0,
+    "stats": {
+      "ataque": 64,
+      "defensa": 58,
+      "velocidad": 80
+    },
+    "legendario": false,
+    "imagen_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/5.png"
+  },
+  {
+    "pokedex": 6,
+    "nombre": "Charizard",
+    "tipo": "Fuego",
+    "generacion": 1,
+    "altura_m": 1.7,
+    "peso_kg": 90.5,
+    "stats": {
+      "ataque": 84,
+      "defensa": 78,
+      "velocidad": 100
+    },
+    "legendario": false,
+    "imagen_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/6.png"
+  },
+  {
+    "pokedex": 7,
+    "nombre": "Squirtle",
+    "tipo": "Agua",
+    "generacion": 1,
+    "altura_m": 0.5,
+    "peso_kg": 9.0,
+    "stats": {
+      "ataque": 48,
+      "defensa": 65,
+      "velocidad": 43
+    },
+    "legendario": false,
+    "imagen_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/7.png"
+  },
+  {
+    "pokedex": 8,
+    "nombre": "Wartortle",
+    "tipo": "Agua",
+    "generacion": 1,
+    "altura_m": 1.0,
+    "peso_kg": 22.5,
+    "stats": {
+      "ataque": 63,
+      "defensa": 80,
+      "velocidad": 58
+    },
+    "legendario": false,
+    "imagen_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/8.png"
+  },
+  {
+    "pokedex": 9,
+    "nombre": "Blastoise",
+    "tipo": "Agua",
+    "generacion": 1,
+    "altura_m": 1.6,
+    "peso_kg": 85.5,
+    "stats": {
+      "ataque": 83,
+      "defensa": 100,
+      "velocidad": 78
+    },
+    "legendario": false,
+    "imagen_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/9.png"
+  },
+  {
+    "pokedex": 25,
+    "nombre": "Pikachu",
+    "tipo": "Eléctrico",
+    "generacion": 1,
+    "altura_m": 0.4,
+    "peso_kg": 6.0,
+    "stats": {
+      "ataque": 55,
+      "defensa": 40,
+      "velocidad": 90
+    },
+    "legendario": false,
+    "imagen_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/25.png"
+  },
+  {
+    "pokedex": 26,
+    "nombre": "Raichu",
+    "tipo": "Eléctrico",
+    "generacion": 1,
+    "altura_m": 0.8,
+    "peso_kg": 30.0,
+    "stats": {
+      "ataque": 90,
+      "defensa": 55,
+      "velocidad": 110
+    },
+    "legendario": false,
+    "imagen_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/26.png"
+  },
+  {
+    "pokedex": 37,
+    "nombre": "Vulpix",
+    "tipo": "Fuego",
+    "generacion": 1,
+    "altura_m": 0.6,
+    "peso_kg": 9.9,
+    "stats": {
+      "ataque": 41,
+      "defensa": 40,
+      "velocidad": 65
+    },
+    "legendario": false,
+    "imagen_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/37.png"
+  },
+  {
+    "pokedex": 38,
+    "nombre": "Ninetales",
+    "tipo": "Fuego",
+    "generacion": 1,
+    "altura_m": 1.1,
+    "peso_kg": 19.9,
+    "stats": {
+      "ataque": 76,
+      "defensa": 75,
+      "velocidad": 100
+    },
+    "legendario": false,
+    "imagen_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/38.png"
+  },
+  {
+    "pokedex": 39,
+    "nombre": "Jigglypuff",
+    "tipo": "Normal",
+    "generacion": 1,
+    "altura_m": 0.5,
+    "peso_kg": 5.5,
+    "stats": {
+      "ataque": 45,
+      "defensa": 20,
+      "velocidad": 20
+    },
+    "legendario": false,
+    "imagen_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/39.png"
+  },
+  {
+    "pokedex": 54,
+    "nombre": "Psyduck",
+    "tipo": "Agua",
+    "generacion": 1,
+    "altura_m": 0.8,
+    "peso_kg": 19.6,
+    "stats": {
+      "ataque": 52,
+      "defensa": 48,
+      "velocidad": 55
+    },
+    "legendario": false,
+    "imagen_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/54.png"
+  },
+  {
+    "pokedex": 58,
+    "nombre": "Growlithe",
+    "tipo": "Fuego",
+    "generacion": 1,
+    "altura_m": 0.7,
+    "peso_kg": 19.0,
+    "stats": {
+      "ataque": 70,
+      "defensa": 45,
+      "velocidad": 60
+    },
+    "legendario": false,
+    "imagen_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/58.png"
+  },
+  {
+    "pokedex": 59,
+    "nombre": "Arcanine",
+    "tipo": "Fuego",
+    "generacion": 1,
+    "altura_m": 1.9,
+    "peso_kg": 155.0,
+    "stats": {
+      "ataque": 110,
+      "defensa": 80,
+      "velocidad": 95
+    },
+    "legendario": false,
+    "imagen_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/59.png"
+  },
+  {
+    "pokedex": 63,
+    "nombre": "Abra",
+    "tipo": "Psíquico",
+    "generacion": 1,
+    "altura_m": 0.9,
+    "peso_kg": 19.5,
+    "stats": {
+      "ataque": 20,
+      "defensa": 15,
+      "velocidad": 90
+    },
+    "legendario": false,
+    "imagen_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/63.png"
+  },
+  {
+    "pokedex": 65,
+    "nombre": "Alakazam",
+    "tipo": "Psíquico",
+    "generacion": 1,
+    "altura_m": 1.5,
+    "peso_kg": 48.0,
+    "stats": {
+      "ataque": 50,
+      "defensa": 45,
+      "velocidad": 120
+    },
+    "legendario": false,
+    "imagen_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/65.png"
+  },
+  {
+    "pokedex": 66,
+    "nombre": "Machop",
+    "tipo": "Lucha",
+    "generacion": 1,
+    "altura_m": 0.8,
+    "peso_kg": 19.5,
+    "stats": {
+      "ataque": 80,
+      "defensa": 50,
+      "velocidad": 35
+    },
+    "legendario": false,
+    "imagen_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/66.png"
+  },
+  {
+    "pokedex": 74,
+    "nombre": "Geodude",
+    "tipo": "Roca",
+    "generacion": 1,
+    "altura_m": 0.4,
+    "peso_kg": 20.0,
+    "stats": {
+      "ataque": 80,
+      "defensa": 100,
+      "velocidad": 20
+    },
+    "legendario": false,
+    "imagen_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/74.png"
+  },
+  {
+    "pokedex": 92,
+    "nombre": "Gastly",
+    "tipo": "Fantasma",
+    "generacion": 1,
+    "altura_m": 1.3,
+    "peso_kg": 0.1,
+    "stats": {
+      "ataque": 35,
+      "defensa": 30,
+      "velocidad": 80
+    },
+    "legendario": false,
+    "imagen_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/92.png"
+  },
+  {
+    "pokedex": 94,
+    "nombre": "Gengar",
+    "tipo": "Fantasma",
+    "generacion": 1,
+    "altura_m": 1.5,
+    "peso_kg": 40.5,
+    "stats": {
+      "ataque": 65,
+      "defensa": 60,
+      "velocidad": 110
+    },
+    "legendario": false,
+    "imagen_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/94.png"
+  },
+  {
+    "pokedex": 95,
+    "nombre": "Onix",
+    "tipo": "Roca",
+    "generacion": 1,
+    "altura_m": 8.8,
+    "peso_kg": 210.0,
+    "stats": {
+      "ataque": 45,
+      "defensa": 160,
+      "velocidad": 70
+    },
+    "legendario": false,
+    "imagen_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/95.png"
+  },
+  {
+    "pokedex": 104,
+    "nombre": "Cubone",
+    "tipo": "Tierra",
+    "generacion": 1,
+    "altura_m": 0.4,
+    "peso_kg": 6.5,
+    "stats": {
+      "ataque": 50,
+      "defensa": 95,
+      "velocidad": 35
+    },
+    "legendario": false,
+    "imagen_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/104.png"
+  },
+  {
+    "pokedex": 129,
+    "nombre": "Magikarp",
+    "tipo": "Agua",
+    "generacion": 1,
+    "altura_m": 0.9,
+    "peso_kg": 10.0,
+    "stats": {
+      "ataque": 10,
+      "defensa": 55,
+      "velocidad": 80
+    },
+    "legendario": false,
+    "imagen_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/129.png"
+  },
+  {
+    "pokedex": 130,
+    "nombre": "Gyarados",
+    "tipo": "Agua",
+    "generacion": 1,
+    "altura_m": 6.5,
+    "peso_kg": 235.0,
+    "stats": {
+      "ataque": 125,
+      "defensa": 79,
+      "velocidad": 81
+    },
+    "legendario": false,
+    "imagen_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/130.png"
+  },
+  {
+    "pokedex": 131,
+    "nombre": "Lapras",
+    "tipo": "Agua",
+    "generacion": 1,
+    "altura_m": 2.5,
+    "peso_kg": 220.0,
+    "stats": {
+      "ataque": 85,
+      "defensa": 80,
+      "velocidad": 60
+    },
+    "legendario": false,
+    "imagen_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/131.png"
+  },
+  {
+    "pokedex": 133,
+    "nombre": "Eevee",
+    "tipo": "Normal",
+    "generacion": 1,
+    "altura_m": 0.3,
+    "peso_kg": 6.5,
+    "stats": {
+      "ataque": 55,
+      "defensa": 50,
+      "velocidad": 55
+    },
+    "legendario": false,
+    "imagen_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/133.png"
+  },
+  {
+    "pokedex": 134,
+    "nombre": "Vaporeon",
+    "tipo": "Agua",
+    "generacion": 1,
+    "altura_m": 1.0,
+    "peso_kg": 29.0,
+    "stats": {
+      "ataque": 65,
+      "defensa": 60,
+      "velocidad": 65
+    },
+    "legendario": false,
+    "imagen_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/134.png"
+  },
+  {
+    "pokedex": 135,
+    "nombre": "Jolteon",
+    "tipo": "Eléctrico",
+    "generacion": 1,
+    "altura_m": 0.8,
+    "peso_kg": 24.5,
+    "stats": {
+      "ataque": 65,
+      "defensa": 60,
+      "velocidad": 130
+    },
+    "legendario": false,
+    "imagen_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/135.png"
+  },
+  {
+    "pokedex": 136,
+    "nombre": "Flareon",
+    "tipo": "Fuego",
+    "generacion": 1,
+    "altura_m": 0.9,
+    "peso_kg": 25.0,
+    "stats": {
+      "ataque": 130,
+      "defensa": 60,
+      "velocidad": 65
+    },
+    "legendario": false,
+    "imagen_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/136.png"
+  },
+  {
+    "pokedex": 143,
+    "nombre": "Snorlax",
+    "tipo": "Normal",
+    "generacion": 1,
+    "altura_m": 2.1,
+    "peso_kg": 460.0,
+    "stats": {
+      "ataque": 110,
+      "defensa": 65,
+      "velocidad": 30
+    },
+    "legendario": false,
+    "imagen_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/143.png"
+  },
+  {
+    "pokedex": 144,
+    "nombre": "Articuno",
+    "tipo": "Hielo",
+    "generacion": 1,
+    "altura_m": 1.7,
+    "peso_kg": 55.4,
+    "stats": {
+      "ataque": 85,
+      "defensa": 100,
+      "velocidad": 85
+    },
+    "legendario": true,
+    "imagen_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/144.png"
+  },
+  {
+    "pokedex": 145,
+    "nombre": "Zapdos",
+    "tipo": "Eléctrico",
+    "generacion": 1,
+    "altura_m": 1.6,
+    "peso_kg": 52.6,
+    "stats": {
+      "ataque": 90,
+      "defensa": 85,
+      "velocidad": 100
+    },
+    "legendario": true,
+    "imagen_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/145.png"
+  },
+  {
+    "pokedex": 146,
+    "nombre": "Moltres",
+    "tipo": "Fuego",
+    "generacion": 1,
+    "altura_m": 2.0,
+    "peso_kg": 60.0,
+    "stats": {
+      "ataque": 100,
+      "defensa": 90,
+      "velocidad": 90
+    },
+    "legendario": true,
+    "imagen_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/146.png"
+  },
+  {
+    "pokedex": 147,
+    "nombre": "Dratini",
+    "tipo": "Dragón",
+    "generacion": 1,
+    "altura_m": 1.8,
+    "peso_kg": 3.3,
+    "stats": {
+      "ataque": 64,
+      "defensa": 45,
+      "velocidad": 50
+    },
+    "legendario": false,
+    "imagen_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/147.png"
+  },
+  {
+    "pokedex": 149,
+    "nombre": "Dragonite",
+    "tipo": "Dragón",
+    "generacion": 1,
+    "altura_m": 2.2,
+    "peso_kg": 210.0,
+    "stats": {
+      "ataque": 134,
+      "defensa": 95,
+      "velocidad": 80
+    },
+    "legendario": false,
+    "imagen_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/149.png"
+  },
+  {
+    "pokedex": 150,
+    "nombre": "Mewtwo",
+    "tipo": "Psíquico",
+    "generacion": 1,
+    "altura_m": 2.0,
+    "peso_kg": 122.0,
+    "stats": {
+      "ataque": 110,
+      "defensa": 90,
+      "velocidad": 130
+    },
+    "legendario": true,
+    "imagen_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/150.png"
+  },
+  {
+    "pokedex": 151,
+    "nombre": "Mew",
+    "tipo": "Psíquico",
+    "generacion": 1,
+    "altura_m": 0.4,
+    "peso_kg": 4.0,
+    "stats": {
+      "ataque": 100,
+      "defensa": 100,
+      "velocidad": 100
+    },
+    "legendario": true,
+    "imagen_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/151.png"
+  },
+  {
+    "pokedex": 152,
+    "nombre": "Chikorita",
+    "tipo": "Planta",
+    "generacion": 2,
+    "altura_m": 0.9,
+    "peso_kg": 6.4,
+    "stats": {
+      "ataque": 49,
+      "defensa": 65,
+      "velocidad": 45
+    },
+    "legendario": false,
+    "imagen_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/152.png"
+  },
+  {
+    "pokedex": 155,
+    "nombre": "Cyndaquil",
+    "tipo": "Fuego",
+    "generacion": 2,
+    "altura_m": 0.5,
+    "peso_kg": 7.9,
+    "stats": {
+      "ataque": 52,
+      "defensa": 43,
+      "velocidad": 65
+    },
+    "legendario": false,
+    "imagen_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/155.png"
+  },
+  {
+    "pokedex": 158,
+    "nombre": "Totodile",
+    "tipo": "Agua",
+    "generacion": 2,
+    "altura_m": 0.6,
+    "peso_kg": 9.5,
+    "stats": {
+      "ataque": 65,
+      "defensa": 64,
+      "velocidad": 43
+    },
+    "legendario": false,
+    "imagen_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/158.png"
+  },
+  {
+    "pokedex": 175,
+    "nombre": "Togepi",
+    "tipo": "Hada",
+    "generacion": 2,
+    "altura_m": 0.3,
+    "peso_kg": 1.5,
+    "stats": {
+      "ataque": 20,
+      "defensa": 65,
+      "velocidad": 20
+    },
+    "legendario": false,
+    "imagen_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/175.png"
+  },
+  {
+    "pokedex": 197,
+    "nombre": "Umbreon",
+    "tipo": "Siniestro",
+    "generacion": 2,
+    "altura_m": 1.0,
+    "peso_kg": 27.0,
+    "stats": {
+      "ataque": 65,
+      "defensa": 110,
+      "velocidad": 65
+    },
+    "legendario": false,
+    "imagen_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/197.png"
+  },
+  {
+    "pokedex": 248,
+    "nombre": "Tyranitar",
+    "tipo": "Roca",
+    "generacion": 2,
+    "altura_m": 2.0,
+    "peso_kg": 202.0,
+    "stats": {
+      "ataque": 134,
+      "defensa": 110,
+      "velocidad": 61
+    },
+    "legendario": false,
+    "imagen_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/248.png"
+  },
+  {
+    "pokedex": 249,
+    "nombre": "Lugia",
+    "tipo": "Psíquico",
+    "generacion": 2,
+    "altura_m": 5.2,
+    "peso_kg": 216.0,
+    "stats": {
+      "ataque": 90,
+      "defensa": 130,
+      "velocidad": 110
+    },
+    "legendario": true,
+    "imagen_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/249.png"
+  },
+  {
+    "pokedex": 445,
+    "nombre": "Garchomp",
+    "tipo": "Dragón",
+    "generacion": 4,
+    "altura_m": 1.9,
+    "peso_kg": 95.0,
+    "stats": {
+      "ataque": 130,
+      "defensa": 95,
+      "velocidad": 102
+    },
+    "legendario": false,
+    "imagen_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/445.png"
+  },
+  {
+    "pokedex": 448,
+    "nombre": "Lucario",
+    "tipo": "Lucha",
+    "generacion": 4,
+    "altura_m": 1.2,
+    "peso_kg": 54.0,
+    "stats": {
+      "ataque": 110,
+      "defensa": 70,
+      "velocidad": 90
+    },
+    "legendario": false,
+    "imagen_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/448.png"
+  }
+]

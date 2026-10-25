@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>El muro de la clase</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <header class="cabecera">
+    <div class="cabecera__dentro">
+      <h1>📌 El muro de la clase</h1>
+      <p class="cabecera__sub">Todos escribimos en la misma base de datos de MongoDB Atlas</p>
+      <ul class="funciones" id="funciones" aria-label="Funciones de db.js"></ul>
+    </div>
+  </header>
+
+  <main class="contenido">
+    <form class="nuevo" id="nuevo">
+      <input id="autor" class="nuevo__autor" maxlength="40" placeholder="Tu nombre" required>
+      <textarea id="texto" class="nuevo__texto" maxlength="280" rows="2" placeholder="Escribe algo para la clase…" required></textarea>
+      <div class="nuevo__pie">
+        <span id="contador" class="nuevo__contador">0 / 280</span>
+        <button type="submit" class="boton boton--principal">Publicar</button>
+      </div>
+    </form>
+
+    <section class="barra">
+      <p id="cuenta" class="barra__cuenta"></p>
+      <p id="filtro" class="barra__filtro" hidden>
+        Solo los mensajes de <strong id="filtro-autor"></strong>
+        <button type="button" class="boton boton--enlace" id="quitar-filtro">ver todos</button>
+      </p>
+    </section>
+
+    <div id="mensaje"></div>
+    <div class="muro" id="muro"></div>
+  </main>
+
+  <div class="aviso" id="aviso" role="status" hidden></div>
+
+  <script src="app.js"></script>
+</body>
+</html>
